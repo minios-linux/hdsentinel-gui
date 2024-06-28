@@ -1,0 +1,30 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: hdsentinel-gui
+Source: <https://www.hdsentinel.com/hard_disk_sentinel_linux_gui.php>
+
+Files: *
+Copyright: 2024 H.D.S. Hungary <info@hdsentinel.com>
+License:
+ Hard Disk Sentinel Linux edition is FREE. You can freely distribute 
+ and use it to analyse hard disk status. However, if you like this 
+ tool and would like to keep it updated, please support further 
+ development by registering the Windows version of the software.
+
+Files: debian/*
+Copyright: 2024 crims0n <crims0n@minios.dev>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
