@@ -6,8 +6,14 @@ Build-Depends: debhelper (>= 11), wget, tar, unzip, xz-utils
 Standards-Version: 4.1.3
 Homepage: https://www.hdsentinel.com/hard_disk_sentinel_linux_gui.php
 
-Package: hdsentinel-gui
+Package: hdsentinel
 Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: HD Sentinel GUI
+Description: HD Sentinel command line utility
  HD Sentinel is a hard disk monitoring software with highest possible support of HDD/SSD/SSHD (hybrid) drives.
+
+Package: hdsentinel-gui
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, hdsentinel
+Description: HD Sentinel GUI
+ HD Sentinel is a hard disk monitoring software with highest possible support of HDD/SSD/SSHD (hybrid) drives. This package includes the GUI.

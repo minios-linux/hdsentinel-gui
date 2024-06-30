@@ -1,0 +1,34 @@
+Description: Update paths in Hard_Disk_Sentinel_GUI.desktop
+ This patch updates the paths for the Exec, Icon, and Path entries in the
+ Hard_Disk_Sentinel_GUI.desktop file. The paths are changed from /usr/share/bin/
+ to /usr/bin/, which is the correct location for these files in the Debian package.
+ .
+ hdsentinel-gui (2.0.0-1) unstable; urgency=medium
+ .
+   * Initial release
+Author: crims0n <crims0n@minios.dev>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout https://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: vendor
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Forwarded: not-needed
+Last-Update: 2024-06-30
+
+--- hdsentinel-gui-2.0.0.orig/Hard_Disk_Sentinel_GUI.desktop
++++ hdsentinel-gui-2.0.0/Hard_Disk_Sentinel_GUI.desktop
+@@ -4,9 +4,9 @@ Type=Application
+ Name=Hard Disk Sentinel GUI
+ Comment=
+ Categories=System;
+-Exec=/usr/share/bin/HDSentinel_GUI
++Exec=/usr/bin/HDSentinel_GUI
+ Icon=/usr/share/icons/HDSentinel_GUI.ico
+-Path=/usr/share/bin/
++Path=/usr/bin/
+ Terminal=false
+ StartupNotify=false
+ Name[hu]=Hard Disk Sentinel GUI
